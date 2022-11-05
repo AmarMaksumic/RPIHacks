@@ -82,7 +82,7 @@ export const RC = () => {
                       <input type="text" value={formDetails.confirmPassword} placeholder="Confirm Password" onChange={(e) => onFormUpdate('confirmPassword', e.target.value)}/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.bio} placeholder="bio" onChange={(e) => onFormUpdate('bio', e.target.value)}></textarea>
+                      <textarea rows="6" value={formDetails.bio} placeholder="What is your company about?" onChange={(e) => onFormUpdate('bio', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
