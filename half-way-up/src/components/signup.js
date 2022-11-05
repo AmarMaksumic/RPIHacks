@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/banner-bg_v2.png";
+import contactImg from "../assets/img/logo.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -75,17 +75,16 @@ export const RC = () => {
                     <Col size={12} sm={6} className="px-1">
                       <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
+                    <Col size={12} className="px-1">
+                      <textarea rows="6" value={formDetails.bio} placeholder="bio" onChange={(e) => onFormUpdate('bio', e.target.value)}></textarea>
+                      <button type="submit"><span>{buttonText}</span></button>
+                    </Col>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.password} placeholder="Password" onChange={(e) => onFormUpdate('password', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.confirmPassword} placeholder="Confirm Password" onChange={(e) => onFormUpdate('confirmPassword', e.target.value)}/>
                     </Col>
-                    <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.bio} placeholder="bio" onChange={(e) => onFormUpdate('bio', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
-                    </Col>
-                    
                     {
                       status.bio &&
                       <Col>
