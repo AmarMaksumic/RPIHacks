@@ -1,0 +1,35 @@
+{
+  "u/amarmaks": {
+    "type": "user",
+    "password": "something hashed",
+    "info": {
+      "display name": "Amar Maksumic",
+      "email": "amar.maksumich@gmail.com",
+      "bio": "I'm a student at the University of Michigan studying Computer Science and Mathematics. I'm interested in machine learning, data science, and software engineering.",
+      "profile picture": "/img/u_amarmaks.jpg",
+      "resources":
+      {
+        "github": "github link",
+        "linkedin": "linkedin link",
+        "website": "personal website link"
+      }
+    }
+  },
+  "c/global_foundries": {
+    "type": "company",
+    "password": "something hashed",
+    "info": {
+      "display name": "Global Foundries",
+      "email": "admin@gf.com",
+      "bio": "Global Foundries is a leading semiconductor foundry, providing advanced technology solutions to the world's top semiconductor companies.",
+      "profile picture": "/img/c_global_foundries.jpg",
+      "hiring": true,
+      "resources":
+      {
+        "github": "github link",
+        "linkedin": "linkedin link",
+        "website": "company website link"
+      }
+    }
+  }
+}
