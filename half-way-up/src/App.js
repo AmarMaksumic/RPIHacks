@@ -15,6 +15,7 @@ function App() {
       <Banner />
       <GS />
       <Contact />
+      <GS />
       <RC />
       <Footer />
     </div>
