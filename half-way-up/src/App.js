@@ -15,7 +15,7 @@ function App() {
       <Banner />
       <GS />
       <Contact />
-      <Contact />
+      <RC />
       <Footer />
     </div>
   );

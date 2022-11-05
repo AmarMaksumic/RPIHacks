@@ -4,13 +4,15 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Contact = () => {
+export const RC = () => {
   const formInitialDetails = {
     firstName: '',
     lastName: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
+    password: '',
+    confirmPassword: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
@@ -58,7 +60,7 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
+                <h2>Set up your account</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
@@ -76,6 +78,12 @@ export const Contact = () => {
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
+                    </Col>
+                    <Col size={12} sm={6} className="px-1">
+                      <input type="text" value={formDetails.password} placeholder="Password" onChange={(e) => onFormUpdate('password', e.target.value)} />
+                    </Col>
+                    <Col size={12} sm={6} className="px-1">
+                      <input type="text" value={formDetails.confirmPassword} placeholder="Confirm Password" onChange={(e) => onFormUpdate('confirmPassword', e.target.value)}/>
                     </Col>
                     {
                       status.message &&
