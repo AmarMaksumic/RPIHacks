@@ -16,7 +16,6 @@ function App() {
       <Banner />
       <GS />
       <Contact />
-      <RNNAV />
       <RC />
       <Footer />
     </div>
