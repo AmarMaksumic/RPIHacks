@@ -13,7 +13,6 @@ import { Contact } from "./components/Contact"
 import { ForumP } from "./components/ForumP";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import { GSMain} from './components/GetStarted'
 import { Register } from "./components/Register"
 import "./components/CSS/AboutUs.css"
 import "./components/CSS/Banner.css"
