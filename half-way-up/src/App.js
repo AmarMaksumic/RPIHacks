@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { GS } from "./components/GetStarted";
-import { RC } from "./components/signup";
+import { EX } from "./components/Example";
 import { AboutUs } from "./components/aboutus";
 import { Footer } from "./components/Footer";
 
@@ -15,7 +15,7 @@ function App() {
       <Banner />
       <GS />
       <AboutUs />
-      <RC />
+      <EX />
       <Footer />
     </div>
   );
