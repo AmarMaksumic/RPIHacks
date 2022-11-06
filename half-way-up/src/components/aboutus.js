@@ -21,7 +21,9 @@ export const AboutUs = () => {
             industries into one, easy and accessible website!
             </h4>
           </Col>
-            <Col size={12} md={6}>
+        </Row>
+        <Row>
+            <Col size={12} md={9} className="align-items-center">
               <p>
               Our team has noticed that startup companies often take the backseat when it comes to recruiting, trading, and networking. 
               However, using this website, startup companies will have their own forums for discussion and connection. 
@@ -30,7 +32,7 @@ export const AboutUs = () => {
               </p>
             </Col>
             <Col size={12} md={3}>
-              <img src={logo} alt="Contact Us" style={width="200" height="200" }/>
+              <img src="logo.png" alt="Contact Us" width="200" height="200" />
             </Col>
         </Row>
       </Container>
