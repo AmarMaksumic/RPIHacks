@@ -24,7 +24,7 @@ export const Example = () => {
             </Row>
           </ Col>
         </Container>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left cut" src={colorSharp} alt="Image" />
     </section>
     )
 }
