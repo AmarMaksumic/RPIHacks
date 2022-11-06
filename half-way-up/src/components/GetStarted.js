@@ -12,7 +12,7 @@ export const GS = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 3
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -50,9 +50,11 @@ export const GS = () => {
             </div>
           </div>
         </div>
-        
-        <img className="background-image-left cut" src={colorSharp} alt="Image" />
-        <img className="background-image-right cut" src={colorSharp} alt="Image" />
+        <section className="get-started-2">
+          <img className="background-image-left cut" src={colorSharp} alt="Image" />
+          <img className="background-image-right cut" src={colorSharp} alt="Image" />
+        </section>
+
     </section>
   )
 
