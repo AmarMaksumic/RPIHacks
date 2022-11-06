@@ -66,9 +66,9 @@ export const ForumC = () => {
                 <Row className='layer-1'> {/*Search*/}
                     <Col>
 
-                        <Row md={"auto"} className='layer-2'>
-                            <Col className='search-attr' md={"auto"} style={{width: "30%"}}>
-                                <h5>Minimum Age:</h5>  
+                        <Row fluid md={"auto"} className='layer-2'>
+                            <Col className='search-attr' style={{width: "30%"}}>
+                                <h5>Company Age:</h5>  
                                 <input 
                                     type="number" 
                                     value={filters.age} 
@@ -76,11 +76,9 @@ export const ForumC = () => {
                                     onChange={(e) => onFormUpdate('age', e.target.value)} 
                                     className='search-input'
                                 />
-
-
                             </Col>
 
-                            <Col className='search-attr' md={"auto"} style={{width: "s%"}}>
+                            <Col className='search-attr'  style={{width: "40%"}}>
                                 <h5>Size:</h5>  
                                 <input 
                                     type="number" 
@@ -96,8 +94,8 @@ export const ForumC = () => {
                                 </Form.Select>
                             </Col>
 
-                            <Col className='search-attr' md={"auto"} style={{width: "35%"}}>
-                                <h5 className="wide">Area Radius:</h5>  
+                            <Col className='search-attr' style={{width: "30%"}}>
+                                <h5>Area Radius:</h5>  
                                 <Form.Select onChange={(e) => onFormUpdate('dist', e.target.value)} className='search-drop-down'>
                                     <option>{"<"}10 miles</option>
                                     <option>25 miles</option>

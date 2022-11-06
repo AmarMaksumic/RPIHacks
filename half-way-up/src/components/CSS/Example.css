@@ -9,3 +9,7 @@
   .example .company-logo {
     scale: 2;
   }
+
+  .cut {
+    overflow-y: hidden;
+  }

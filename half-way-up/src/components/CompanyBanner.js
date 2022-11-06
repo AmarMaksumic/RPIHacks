@@ -11,12 +11,16 @@ export const CompanyBanner = () => {
     
 
     return (
+        <div className="nasx">
         <Col className="yas">
             <Row>
                 <Col className="col-69">
                     <TrackVisibility>
                     {({ isVisible }) =>
-                        <img src={logo} alt="logo"/>}
+                    <div className="square-cont">
+                        <img src={logo} alt="logo" className="gf"/>
+                    </div>
+                        }
                     </TrackVisibility>
                 </Col>
 
@@ -53,6 +57,7 @@ export const CompanyBanner = () => {
                 </Col>
             </Row>
         </Col>
+        </div>
     )
 
 }

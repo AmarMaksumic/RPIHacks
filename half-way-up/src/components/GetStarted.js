@@ -38,20 +38,22 @@ export const GS = () => {
                   <h2>Get Started!</h2>
                   <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme gs-slider">
                       <div className="item">
-                      <Button variant="primary" className="button" active>Start a Post</Button>
+                      <Button href="/forum-p" variant="primary" className="button" active><h2>Start A Post</h2></Button>
                       </div>
                       <div className="item">
-                      <Button variant="primary" className="button" active>Register Account</Button>
+                      <Button href="/register" variant="primary" className="button" active><h2>Register Account</h2></Button>
                       </div>
                       <div className="item align-middle">
-                        <Button variant="primary" className="button" active>Browse Startups</Button>
+                        <Button href="/forumc" variant="primary" className="button" active><h2>Browse Startups</h2></Button>
                       </div>
                   </Carousel>
                 </div>
             </div>
           </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        
+        <img className="background-image-left cut" src={colorSharp} alt="Image" />
+        <img className="background-image-right cut" src={colorSharp} alt="Image" />
     </section>
   )
 
