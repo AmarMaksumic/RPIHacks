@@ -30,7 +30,7 @@ export const AboutUs = () => {
               </p>
             </Col>
             <Col size={12} md={3}>
-              <img src="logo.png" alt="Contact Us" width="200" height="200" />
+              <img src={logo} alt="Contact Us" style={width="200" height="200" }/>
             </Col>
         </Row>
       </Container>
