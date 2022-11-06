@@ -1,6 +1,6 @@
 {
   "u/amarmaks": {
-    "type": "user",
+    "type": "USER",
     "password": "something hashed",
     "info": {
       "display name": "Amar Maksumic",
@@ -13,10 +13,14 @@
         "linkedin": "linkedin link",
         "website": "personal website link"
       }
+    },
+    "forums": {
+      "posts": [],
+      "comments": []
     }
   },
   "c/global_foundries": {
-    "type": "company",
+    "type": "COMP",
     "password": "something hashed",
     "info": {
       "display name": "Global Foundries",
@@ -30,6 +34,10 @@
         "linkedin": "linkedin link",
         "website": "company website link"
       }
+    },
+    "forums": {
+      "posts": [],
+      "comments": []
     }
   }
 }
