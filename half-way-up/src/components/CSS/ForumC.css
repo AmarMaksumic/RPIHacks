@@ -6,6 +6,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: hidden;
+
+
+    background: linear-gradient(90.21deg, #5f0969 -5.91%, #2fa1bd 111.58%);
 }
 
 .forum-c .center-row {
@@ -26,7 +29,7 @@
 
 .layer-1 {
     border-radius: 10px;
-    background-image: linear-gradient(to bottom right, rgb(0, 183, 255), rgb(85, 2, 153));
+    background-image: linear-gradient(to bottom right, rgb(142, 10, 151), rgb(118, 14, 30));
     border: solid 3px black;
     width: 96%;
     padding: 20px 10px 20px 10px;
@@ -159,5 +162,5 @@
 
 .imas {
     margin: 50px auto 50px auto;
-    border-radius: 50px;
+    scale: 0.9;
 }
