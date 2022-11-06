@@ -14,8 +14,8 @@ function App() {
       <NavBar />
       <Banner />
       <GS />
-      <RC />
       <AboutUs />
+      <RC />
       <Footer />
     </div>
   );

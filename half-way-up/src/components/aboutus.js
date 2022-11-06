@@ -1,11 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import 'react-multi-carousel/lib/styles.css';
 import TrackVisibility from 'react-on-screen';
-import colorSharp from "../assets/img/color-sharp.png"
-import contactImg from "../assets/img/logo.png";
-import logo from '../assets/img/logo.svg';
+import colorSharp from "../assets/img/color-sharp.png";
+import us from '../assets/img/us.png';
 
-export const AboutUs = () => { 
+export const AboutUs = () => {
 
 
   return (
@@ -17,12 +16,12 @@ export const AboutUs = () => {
               <br></br>About Us
             </h2>
             <h4>
-            We are the Half Way Down team, and our goal is to bring together all the up and coming startup companies across 
+            We are Half Way Down, and our goal is to bring together all the up and coming startup companies across 
             industries into one, easy and accessible website!
             </h4>
-          </Col>
-        </Row>
-        <Row>
+            </Col>
+          </Row>
+          <Row>
             <Col size={12} md={9} className="align-items-center">
               <p>
               Our team has noticed that startup companies often take the backseat when it comes to recruiting, trading, and networking. 
@@ -32,9 +31,16 @@ export const AboutUs = () => {
               </p>
             </Col>
             <Col size={12} md={3}>
-              <img src="logo.png" alt="Contact Us" width="200" height="200" />
+              <Row>
+              <Col md={1}></Col>
+                <Col><img src={us} alt="Contact Us" style={{padding: "0px auto auto 0px", scale: "1"}}/></Col>
+                <Col md={2}></Col>
+              </Row>
+              <Row></Row>
+              <Row></Row>
             </Col>
-        </Row>
+          </Row>
+        
       </Container>
         <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
