@@ -33,8 +33,8 @@ export const AboutUs = () => {
             <Col size={12} md={3}>
               <Row>
               <Col md={1}></Col>
-                <Col><img src={us} alt="Contact Us" style={{padding: "0px auto auto 0px", scale: "1"}}/></Col>
-                <Col md={2}></Col>
+              <Col><img src={us} alt="Contact Us" className="group-pic"/></Col>
+              <Col md={1}></Col>
               </Row>
               <Row></Row>
               <Row></Row>

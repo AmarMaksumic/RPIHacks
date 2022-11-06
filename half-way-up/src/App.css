@@ -393,6 +393,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.group-pic {
+  padding: auto 0 0 auto;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px rgb(214, 24, 214);
+}
+
 
 /************ Projects Css ************/
 .contact {
