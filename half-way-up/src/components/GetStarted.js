@@ -79,7 +79,7 @@ export const GSMain = () => {
                       <Nav.Link eventKey="third"><h2 style={{color: "white"}}>Follow a Start Up</h2></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                      <Nav.Link eventKey="fourth"><h2 style={{color: "white"}}>Comment amogus</h2></Nav.Link>
+                      <Nav.Link eventKey="fourth"><h2 style={{color: "white"}}>Comment</h2></Nav.Link>
                 </Nav.Item>
             </Nav>
           </Col>
