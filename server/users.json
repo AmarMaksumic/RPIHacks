@@ -15,8 +15,8 @@
       }
     },
     "forums": {
-      "posts": [],
-      "comments": []
+      "posts": {},
+      "comments": {}
     }
   },
   "c/global_foundries": {
@@ -36,8 +36,8 @@
       }
     },
     "forums": {
-      "posts": [],
-      "comments": []
+      "posts": {},
+      "comments": {}
     }
   }
 }
