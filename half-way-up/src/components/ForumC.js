@@ -5,6 +5,9 @@ import colorSharp from "../assets/img/color-sharp.png";
 import TrackVisibility from 'react-on-screen';
 import {AiOutlineClose} from 'react-icons/ai'
 import {v4 as uuid} from 'uuid'
+import one from '../assets/img/1.png'
+import two from '../assets/img/2.png'
+import thr from '../assets/img/3.png'
 
 import {CompanyBanner} from './CompanyBanner.js'
 
@@ -129,8 +132,14 @@ export const ForumC = () => {
                     </Col>
                 </Row>
 
-                <Row>
-                    <CompanyBanner />
+                <Row className="imas">
+                    <img src={one} alt="logo"/>
+                </Row>  
+                <Row className="imas">
+                    <img src={two} alt="logo"/>
+                </Row>  
+                <Row className="imas">
+                    <img src={thr} alt="logo"/>
                 </Row>  
             </Col>
         </Container>

@@ -64,7 +64,7 @@ export const GS = () => {
 
 export const GSMain = () => {
   return (
-    <section className="banner" id="home">
+    <section className="banner" id="home" style={{paddingBottom: "260px"}}>
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <Row className="align-items-center" style={{margin: "10px 10px 10px 10px"}}> 
           <Col md={4}>
