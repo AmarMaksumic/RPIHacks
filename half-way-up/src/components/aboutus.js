@@ -5,7 +5,7 @@ import colorSharp from "../assets/img/color-sharp.png"
 import contactImg from "../assets/img/logo.png";
 import logo from '../assets/img/logo.svg';
 
-export const AboutUs = () => {
+export const AboutUs = () => { 
 
 
   return (
