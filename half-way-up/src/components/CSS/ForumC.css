@@ -1,0 +1,143 @@
+/************ ForumC Css ************/
+.forum-c {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+.forum-c .center-row {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+.forum-c h1 {
+    width: fit-content;
+}
+.forum-c h5 {
+    width: fit-content;
+    margin: auto 5px auto 5px;
+    display: flex;
+    vertical-align:center;
+}
+
+.layer-1 {
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(0, 183, 255), rgb(85, 2, 153));
+    border: solid 3px black;
+    width: 96%;
+    padding: 20px 10px 20px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.layer-2 {
+    width: 40%;
+    display: inline;
+}
+.search-attr {  
+    width: fit-content;
+    display:inline-flex;
+    margin-right: 0px;
+}
+
+.search-input {
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid 1px gray;
+
+    direction: rtl;
+    padding: 1px;
+    padding-right: 5px;
+    margin: auto 5px auto 5px;
+
+    font-size: 100%;
+
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+.search-drop-down {
+    width: fit-content;
+    height: 100%;
+    border-radius: 5px;
+    border: solid 1px gray;
+
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 25px;
+    margin: auto 3px auto 3px;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+.tagline{
+    margin: 10px auto auto auto;
+
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+.tag-corral {
+    margin: 10px auto auto auto;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 10px;
+    min-height: 50px;
+    height: fit-content;
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
+
+.tag-shell {
+    width: fit-content;
+    height: 70%;
+    background-color: rgb(248, 243, 236);
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+
+    box-shadow: 0 0 1px gray;
+    display: flex;
+
+}
+
+.tag-text {
+    color: Black;
+    font-weight: 500;
+    margin: auto auto auto 5px;
+}
+
+.delete-tag {
+    width: 20px;
+    height: 20px;
+    margin: auto 2px auto auto;
+}
+
+
+
+/*********************** CBanner CSS ******************/
+
+.yas {
+
+    height: 80vh;
+    background-color: white;
+    border-radius: 50px;
+    border: solid 5px black;
+
+    margin: 50px auto auto auto;
+    padding: 20px;
+}
+
+.Company-titl {
+    color: black;
+    margin: auto auto auto 5px;
+    font-size: 20px;
+}
+
+.col-69 {
+    vertical-align: middle;
+    display: flex;
+}

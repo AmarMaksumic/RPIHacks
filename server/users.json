@@ -26,7 +26,7 @@
       "display name": "Global Foundries",
       "email": "admin@gf.com",
       "bio": "Global Foundries is a leading semiconductor foundry, providing advanced technology solutions to the world's top semiconductor companies.",
-      "profile picture": "/img/c_global_foundries.jpg",
+      "profile picture": "../assets/img/c_global_foundries.jpg",
       "hiring": true,
       "resources":
       {

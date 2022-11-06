@@ -56,6 +56,7 @@ export const RC = () => {
               }
             </TrackVisibility>
           </Col>
+          
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>

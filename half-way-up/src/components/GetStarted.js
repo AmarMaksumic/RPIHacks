@@ -55,3 +55,12 @@ export const GS = () => {
   )
 
 }
+
+
+export const GSMain = () => {
+  return (
+    <section>
+      
+    </section>
+  )
+}

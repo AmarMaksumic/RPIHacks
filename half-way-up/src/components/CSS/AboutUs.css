@@ -1,0 +1,48 @@
+/************ Aboutus's Css ************/
+.aboutus {
+    padding: 0 0 50px 0;
+    position: relative;
+  }
+  .aboutus-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }
+  .aboutus h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .aboutus p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .aboutus-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .aboutus-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+  
+  .group-pic {
+    padding: auto 0 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 2px rgb(214, 24, 214);
+  }
+  
+  

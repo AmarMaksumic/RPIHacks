@@ -4,7 +4,7 @@ import TrackVisibility from 'react-on-screen';
 import colorSharp from "../assets/img/color-sharp.png";
 import us from '../assets/img/us.png';
 
-export const AboutUs = () => {
+export const ForumP = () => {
 
 
   return (
