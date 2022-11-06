@@ -1,10 +1,12 @@
-
+import meter1 from "../assets/img/meter1.svg";
+import meter2 from "../assets/img/meter2.svg";
+import meter3 from "../assets/img/meter3.svg";
 import { Container, Row, Col } from "react-bootstrap";
-import 'react-multi-carousel/lib/styles.css';
 import TrackVisibility from 'react-on-screen';
 import Carousel from 'react-multi-carousel';
 import colorSharp from "../assets/img/color-sharp.png"
 import 'react-multi-carousel/lib/styles.css';
+import Button from 'react-bootstrap/Button';
 
 export const GS = () => {
   const responsive = {
@@ -35,13 +37,13 @@ export const GS = () => {
                   <h2>Get Started!</h2>
                   <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme gs-slider">
                       <div className="item">
-                          <h5>Start a Post!</h5>
+                      <Button variant="primary" className="button" active>Start a Post</Button>
                       </div>
                       <div className="item">
-                          <h5>Register Account</h5>
+                      <Button variant="primary" className="button" active>Register Account</Button>
                       </div>
-                      <div className="item">
-                          <h5>Browse Startups</h5>
+                      <div className="item align-middle">
+                        <Button variant="primary" className="button" active>Browse Startups</Button>
                       </div>
                   </Carousel>
                 </div>

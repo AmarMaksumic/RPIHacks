@@ -1,3 +1,5 @@
+
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -304,15 +306,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ GS's Css ************/
 .get-started {
-  padding: 0 0 50px 0;
+  padding: 50px 0 50px 0;
   position: relative;
 }
 .gs-bx {
-  background: #151515;
+  background: #2f0f39;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: -90px;
+  margin-bottom: -90px;
 }
 .gs h2 {
 	font-size: 45px;
@@ -330,7 +333,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
-.gs-slider .item img {
+.gs-slider .item {
   width: 50%;
   margin: 0 auto 15px auto;
 }
@@ -340,6 +343,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+.gs-slider .button {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-image: radial-gradient(circle,rgb(189, 58, 241), rgb(75, 7, 100) );
+  border-color:  rgb(75, 7, 100);
 }
 
 /************ Aboutus's Css ************/
