@@ -64,8 +64,8 @@ export const GSMain = () => {
   return (
     <section className="banner" id="home">
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-        <Row className="align-items-center" style={{margin: "10px 10px 10px 10px"}}> 
-          <Col md={4}>
+        <Row className="align-items-center" style={{margin: "auto auto auto auto"}}> 
+          <Col md={4} style={{margin: "auto 30px auto 50px"}}>
             <Nav variant="pills" className="flex-column">
                 <Nav.Item>
                       <Nav.Link eventKey="first"><h2 style={{color: "white"}}>Register</h2></Nav.Link>
@@ -81,19 +81,27 @@ export const GSMain = () => {
                 </Nav.Item>
             </Nav>
           </Col>
-          <Col md={8}>
+          <Col md={5}>
             <Tab.Content>
               <Tab.Pane eventKey="first">
-                blurb about how cool registering is
+                <p style={{fontSize: "25px"}}>
+                  Create a profile for your company to gain access to hundreds of forums!
+                </p>
               </Tab.Pane>
               <Tab.Pane eventKey="second">
-                blurb about how cool creating a post is
+                <p style={{fontSize: "25px"}}>
+                  Make your first post about anything from troubleshooting to recruiting!
+                </p>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
-                blurb about how cool following a startup is
+                <p style={{fontSize: "25px"}}>
+                  Follow your favorite up and coming start ups and be the first to see their posts!
+                </p>
               </Tab.Pane>
               <Tab.Pane eventKey="fourth">
-                blurb about how cool commenting amogus is
+              <p style={{fontSize: "25px"}}>
+                  Start commenting to interact with your peers in the start up community!
+                </p>
               </Tab.Pane>
             </Tab.Content>
           </Col>
