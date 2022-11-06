@@ -44,7 +44,7 @@ export const AboutUs = () => {
           </Row>
         
       </Container>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+{/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }

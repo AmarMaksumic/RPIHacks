@@ -1,12 +1,13 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import Carousel from 'react-multi-carousel';
 import colorSharp from "../assets/img/color-sharp.png"
 import 'react-multi-carousel/lib/styles.css';
 import Button from 'react-bootstrap/Button';
+
 
 export const GS = () => {
   const responsive = {
@@ -59,8 +60,43 @@ export const GS = () => {
 
 export const GSMain = () => {
   return (
-    <section>
-      
+    <section className="banner" id="home">
+      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+        <Row className="align-items-center" style={{margin: "10px 10px 10px 10px"}}> 
+          <Col md={4}>
+            <Nav variant="pills" className="flex-column">
+                <Nav.Item>
+                      <Nav.Link eventKey="first"><h2 style={{color: "white"}}>Register</h2></Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                      <Nav.Link eventKey="second"><h2 style={{color: "white"}}>Create a Post</h2></Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                      <Nav.Link eventKey="third"><h2 style={{color: "white"}}>Follow a Start Up</h2></Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                      <Nav.Link eventKey="fourth"><h2 style={{color: "white"}}>Comment amogus</h2></Nav.Link>
+                </Nav.Item>
+            </Nav>
+          </Col>
+          <Col md={8}>
+            <Tab.Content>
+              <Tab.Pane eventKey="first">
+                blurb about how cool registering is
+              </Tab.Pane>
+              <Tab.Pane eventKey="second">
+                blurb about how cool creating a post is
+              </Tab.Pane>
+              <Tab.Pane eventKey="third">
+                blurb about how cool following a startup is
+              </Tab.Pane>
+              <Tab.Pane eventKey="fourth">
+                blurb about how cool commenting amogus is
+              </Tab.Pane>
+            </Tab.Content>
+          </Col>
+        </Row>
+      </Tab.Container>
     </section>
   )
 }
