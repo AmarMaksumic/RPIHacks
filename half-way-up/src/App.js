@@ -6,8 +6,8 @@ import { Banner } from "./components/Banner";
 import { GS } from "./components/GetStarted";
 //import { RNNAV } from "./components/about-us";
 import { RC } from "./components/signup";
-import { About } from "./components/aboutus";
-import { Contact } from "./components/Contact";
+//import { Aboutus } from "./components/Aboutus";
+import { AboutUs } from "./components/AboutUs";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -16,9 +16,8 @@ function App() {
       <NavBar />
       <Banner />
       <GS />
-      <Contact />
       <RC />
-      <About />
+      <AboutUs />
       <Footer />
     </div>
   );
