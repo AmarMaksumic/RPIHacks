@@ -283,7 +283,7 @@ def add_forum_post():
                    'comments': {}}
       write_json(data, 'tag_files/' + tag + '.json')
   users = read_json('users.json')
-  users[request.json['username']]['forums']['posts']['id'] = tags
+  users[request.json['username']]['forums']['posts'][str(id)] = tags
   write_json(users, 'users.json')
   return 'Post added!'
 
@@ -317,12 +317,10 @@ def delete_forum_post():
   id = request.json['id']
   users = read_json('users.json')
   if (id in users[request.json['username']]['forums']['posts']):
-    tags = users[request.json['username']]['forums']['posts'][id]['tags']
+    tags = users[request.json['username']]['forums']['posts'][id]
     del users[request.json['username']]['forums']['posts'][id]
     for tag in tags:
       data = read_json('tag_files/' + tag + '.json')
-      for comment in data[id]['comments']:
-        del users[comment['username']]['forums']['comments'][id]
       del data[id]
       write_json(data, 'tag_files/' + tag + '.json')
     write_json(users, 'users.json')
