@@ -5,7 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { GS } from "./components/GetStarted";
 import { RC } from "./components/signup";
-import { AboutUs } from "./components/AboutUs";
+import { AboutUs } from "./components/aboutus";
 import { Footer } from "./components/Footer";
 
 function App() {
