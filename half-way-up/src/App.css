@@ -83,4 +83,17 @@ p.success {
 p.danger {
 	color: red;
 }
+.prof{
+  background: linear-gradient(90.21deg, #5f0969 -5.91%, #2fa1bd 111.58%);
+  padding-top:10px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+.smol {
 
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-left: 70px;
+  
+}

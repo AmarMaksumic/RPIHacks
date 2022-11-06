@@ -13,6 +13,7 @@ import { Contact } from "./components/Contact"
 import { ForumP } from "./components/ForumP";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
+    import { Profile } from './components/Profile'
 import { Register } from "./components/Register"
 import "./components/CSS/AboutUs.css"
 import "./components/CSS/Banner.css"
@@ -36,7 +37,7 @@ function App() {
             <Banner />
             <GS />
             <AboutUs />
-            <Example />          
+            {/* <Example />           */}
           </div>
         } />
         <Route path='/get-started' element={
@@ -55,6 +56,9 @@ function App() {
         } />
         <Route path='/register' element={
           <Register />
+        } />
+        <Route path='/profile' element={
+          <Profile />
         } />
       </Routes>
 
